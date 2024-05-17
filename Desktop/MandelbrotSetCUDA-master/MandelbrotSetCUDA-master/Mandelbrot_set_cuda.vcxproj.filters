@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Mandelbrot_set.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="mandelbrot_sequential.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utility.h">
+      <Filter>src\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Mandelbrot_set.h">
+      <Filter>src\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel.cuh">
+      <Filter>src\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>src\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="mandelbrot_sequential.h">
+      <Filter>src\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="helper_cuda.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{63033227-7099-4e51-b98c-9d78b4664b90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header">
+      <UniqueIdentifier>{e85415d7-b70a-4b57-ba3c-795d71608afe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="kernel.cu">
+      <Filter>src</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+    <None Include="..\..\..\Documents\SFML-2.6.1\bin\sfml-system-d-2.dll" />
+    <None Include="..\..\..\Documents\SFML-2.6.1\bin\openal32.dll" />
+    <None Include="..\..\..\Documents\SFML-2.6.1\bin\sfml-audio-2.dll" />
+    <None Include="..\..\..\Documents\SFML-2.6.1\bin\sfml-audio-d-2.dll" />
+    <None Include="..\..\..\Documents\SFML-2.6.1\bin\sfml-graphics-2.dll" />
+    <None Include="..\..\..\Documents\SFML-2.6.1\bin\sfml-graphics-d-2.dll" />
+    <None Include="..\..\..\Documents\SFML-2.6.1\bin\sfml-network-2.dll" />
+    <None Include="..\..\..\Documents\SFML-2.6.1\bin\sfml-network-d-2.dll" />
+    <None Include="..\..\..\Documents\SFML-2.6.1\bin\sfml-system-2.dll" />
+    <None Include="..\..\..\Documents\SFML-2.6.1\bin\sfml-window-2.dll" />
+    <None Include="..\..\..\Documents\SFML-2.6.1\bin\sfml-window-d-2.dll" />
+  </ItemGroup>
+</Project>
